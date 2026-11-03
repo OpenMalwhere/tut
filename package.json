@@ -1,0 +1,29 @@
+{
+  "name": "tut-cures",
+  "version": "0.1.0",
+  "description": "TuT-Cures: a terminal AI doctor that runs commands, fixes its own errors, and learns from skill files.",
+  "type": "module",
+  "bin": {
+    "tut": "bin/tut.js",
+    "tut-kill": "bin/tut-kill.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "logo": "python3 tools/make-logo.py 48"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "agent",
+    "terminal"
+  ],
+  "license": "UNLICENSED",
+  "private": true
+}
